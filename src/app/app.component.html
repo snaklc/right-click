@@ -1,0 +1,4 @@
+<div class="container">
+  <div class="box1"  (contextmenu)="onRightClick($event)"></div>
+  <app-child *ngIf="!isHidden" [x]="contextMenuX" [y]="contextMenuY"></app-child>
+</div>
